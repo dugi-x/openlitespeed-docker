@@ -10,4 +10,4 @@ if [ $CODE != "200" ]; then
   exit 1
 fi
 
-docker build --build-arg version=${VERSION} -t swarmpit/install:${TAG} .
+docker build --build-arg version=${VERSION} -t dugi/openlitespeed:${TAG} .
